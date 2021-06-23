@@ -1,0 +1,24 @@
+
+URL-http://localhost/camerastore/api/
+
+APIs					URL 									Method	Parameter										Comment
+1-register  	http://localhost/camerastore/api/register		POST	name,email,password,confirm_password
+
+2-Login			http://localhost/camerastore/api/login			POST	email,password
+
+3-all category  http://localhost/camerastore/api/all-category   GET		
+
+4-All products  http://localhost/camerastore/api/all-product    GET		
+
+5-get specfic  http://localhost/camerastore/api/get-product-specfic  POST    category_id
+	product
+
+6-add to cart  http://localhost/camerastore/api/add-to-cart		POST		product_id									"pass bear token"
+
+7-get cart 	http://localhost/camerastore/api/get-cart-specfic-user  GET  												"pass bear token"
+	specfic user
+	
+	
+	credentail user 
+	email-test@gmail.com
+	password-1234
